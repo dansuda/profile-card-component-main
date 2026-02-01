@@ -36,15 +36,14 @@ main {
   border-radius: 1rem;
   overflow: hidden;
   width: 88%;
-  max-width: 352px;
-  transition: all 300ms ease-in-out;
+  max-width: 22rem;
 }
 .container .pattern-img {
   width: 100%;
 }
 
 .sub-container .pfp-img {
-  border: solid 5px hsl(225, 10%, 92%);
+  border: solid 0.3125rem hsl(225, 10%, 92%);
   border-radius: 50%;
   margin-block-start: -3.75rem;
   max-width: 34.5%;
@@ -56,14 +55,14 @@ main {
 .sub-container h1 span {
   font-weight: 400;
   color: hsl(227, 10%, 46%);
-  margin-inline-start: 5px;
+  margin-inline-start: 0.3125rem;
 }
 .sub-container > p {
   font-size: 0.875rem;
   color: hsl(227, 10%, 46%);
   margin-block-start: 0;
   padding-block-end: 2rem;
-  border-block-end: solid 1px rgb(218, 216, 216);
+  border-block-end: solid 0.0625rem hsl(228, 19%, 89%);
 }
 
 .info {
@@ -71,7 +70,6 @@ main {
   justify-content: center;
   flex-wrap: wrap;
   gap: 1rem;
-  transition: all 300ms ease-in-out;
   margin: 0 auto;
   width: 75%;
   padding-block-end: 8%;
@@ -87,5 +85,5 @@ main {
   margin: 0;
   font-size: 0.625rem;
   color: hsl(227, 10%, 46%);
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
 }/*# sourceMappingURL=style.css.map */
