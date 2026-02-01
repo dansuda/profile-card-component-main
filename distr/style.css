@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 1.125rem;
+  color: hsl(229, 23%, 23%);
+  background: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 45vw bottom 41vh, left 39vw top 45vh;
+  background-color: hsl(185, 75%, 39%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100svh;
+  width: 100svw;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 88%;
+  max-width: 352px;
+  transition: all 300ms ease-in-out;
+}
+.container .pattern-img {
+  width: 100%;
+}
+
+.sub-container .pfp-img {
+  border: solid 5px hsl(225, 10%, 92%);
+  border-radius: 50%;
+  margin-block-start: -3.75rem;
+  max-width: 34.5%;
+}
+.sub-container h1 {
+  font-size: inherit;
+  margin-block-end: 0.5rem;
+}
+.sub-container h1 span {
+  font-weight: 400;
+  color: hsl(227, 10%, 46%);
+  margin-inline-start: 5px;
+}
+.sub-container > p {
+  font-size: 0.875rem;
+  color: hsl(227, 10%, 46%);
+  margin-block-start: 0;
+  padding-block-end: 2rem;
+  border-block-end: solid 1px rgb(218, 216, 216);
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  transition: all 300ms ease-in-out;
+  margin: 0 auto;
+  width: 75%;
+  padding-block-end: 8%;
+}
+.info .stats {
+  flex: 1;
+}
+.info .stats h2 {
+  margin: 0.4125rem 0;
+  font-size: 1.125rem;
+}
+.info .stats p {
+  margin: 0;
+  font-size: 0.625rem;
+  color: hsl(227, 10%, 46%);
+  letter-spacing: 2px;
+}/*# sourceMappingURL=style.css.map */

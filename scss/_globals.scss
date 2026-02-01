@@ -1,0 +1,116 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: $font;
+    font-size: 1.125rem;
+    color: $navy;
+
+    //learned this today
+    background: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 45vw bottom 41vh, left 39vw top 45vh;
+
+    background-color: $blue;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100svh;
+    width: 100svw;
+}
+
+.container {
+    background-color: $white;
+    // margin-inline: 4%;
+    border-radius: 1rem;
+    overflow: hidden;
+    width: 88%;
+    max-width: 352px;
+    transition: all 300ms ease-in-out;
+
+    .pattern-img {
+        width: 100%;
+    }
+}
+
+.sub-container {
+    // padding: 1.5rem 2.625rem;
+
+    .pfp-img {
+        border: solid 5px $gray100;
+        border-radius: 50%;
+        margin-block-start: -3.75rem; // learned about negative margins today
+        max-width: 34.5%;
+    }
+    
+    h1 {
+        font-size: inherit;
+        margin-block-end: 0.5rem;
+
+        span {
+            font-weight: $regular;
+            color: $gray500;
+            margin-inline-start: 5px;
+        }
+    }
+
+    > p {
+        font-size: 0.875rem;
+        color: $gray500;
+
+        margin-block-start: 0;
+        padding-block-end: 2rem;
+
+        border-block-end: solid 1px rgb(218, 216, 216);
+    }
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    transition: all 300ms ease-in-out;
+
+    margin: 0 auto;
+    width: 75%;
+
+    // padding-inline: 12%;
+    padding-block-end: 8%;
+    
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr;
+
+
+    .stats {
+        flex: 1;
+
+        h2 {
+            margin: 0.4125rem 0;
+            font-size: 1.125rem;
+        }
+
+        p{
+            margin: 0;
+            font-size: 0.625rem;
+            color: $gray500;
+            letter-spacing: 2px;
+        }
+    }
+}
