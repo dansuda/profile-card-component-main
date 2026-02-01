@@ -37,6 +37,7 @@ main {
   overflow: hidden;
   width: 88%;
   max-width: 22rem;
+  box-shadow: 2px 15px 40px -15px hsl(229, 23%, 23%);
 }
 .container .pattern-img {
   width: 100%;
